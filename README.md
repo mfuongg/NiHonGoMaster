@@ -31,8 +31,7 @@
 - [Dữ liệu và lưu trữ](https://github.com/mfuongg/NiHonGoMaster#dữ-liệu-và-lưu-trữ)
 - [Hạn chế hiện tại](https://github.com/mfuongg/NiHonGoMaster#hạn-chế-hiện-tại)
 - [Lộ trình phát triển](https://github.com/mfuongg/NiHonGoMaster#lộ-trình-phát-triển)
-- [Nhóm phát triển và ghi nhận](https://github.com/mfuongg/NiHonGoMaster#nhóm-phát-triển-và-ghi-nhận)
-- [Bản quyền](https://github.com/mfuongg/NiHonGoMaster#bản-quyền)
+
 
 ---
 
