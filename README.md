@@ -1,62 +1,3 @@
-# NihonGo Master
-
-Ứng dụng học tiếng Nhật bằng Flutter cho bài tập lớn môn Lập trình cho thiết bị di động.
-
-## Các tính năng đã bổ sung
-
-- Đăng nhập / Đăng ký / Quên mật khẩu
-- Đăng nhập Google, Facebook
-- Kiến trúc theo hướng MVVM-lite với `Provider` + `Service`
-- Đồng bộ Firebase Authentication / Firestore (khi cấu hình Firebase thật)
-- Chế độ fallback offline/demo nếu chưa cấu hình Firebase
-- Flashcard lật thẻ với thuật toán **Spaced Repetition**
-- Chấm điểm bài test, hiển thị số câu đúng/sai, lưu lịch sử học tập
-- Cache dữ liệu từ vựng offline bằng **SQLite (sqflite)**
-- TTS phát âm tiếng Nhật bằng `flutter_tts`
-- Local notification nhắc học mỗi ngày lúc **20:00**
-- Cơ chế gọi dữ liệu từ Firestore, fallback về local cache/hard seed khi offline
-
-## Cấu trúc chính
-
-```text
-lib/
-  models/
-  providers/
-  services/
-  screens/
-    auth/
-    vocabulary/
-    jlpt/
-    progress/
-```
-
-## Cấu hình Firebase
-
-Dự án hiện được viết theo hướng **compile được ngay cả khi chưa có Firebase thật**, để bạn dễ demo offline.
-
-Muốn bật Firebase thật:
-
-1. Mở `lib/firebase_options.dart`
-2. Đặt `configured = true`
-3. Điền các thông số Firebase của bạn
-4. (Khuyến nghị) thêm `google-services.json` vào `android/app/`
-5. Bật Email/Password, Google, Facebook trong Firebase Console
-6. Tạo Firestore collections:
-   - `users`
-   - `vocabularies`
-   - `users/{uid}/flashcard_progress`
-   - `users/{uid}/test_history`
-
-## Chạy dự án
-
-```bash
-flutter clean
-flutter pub get
-flutter run -d android
-```
-
-> Nếu bạn build trên Chrome nhưng project chưa cấu hình web thì sẽ lỗi. Với bài tập lớn mobile, hãy chạy Android emulator hoặc điện thoại Android.
-
 # NihonGo Master 🇯🇵
 
 **A comprehensive Japanese-learning mobile app built with Flutter** — kana, kanji, vocabulary, grammar, reading, JLPT mock tests, and AI-assisted speaking / pronunciation / writing practice, with an offline-first data layer and Firebase sync.
@@ -419,17 +360,6 @@ Documented honestly so reviewers know the current state:
 
 ---
 
-## Team & Credits
-
-**Course:** Mobile Application Development (Lập trình cho thiết bị di động), credit class N01
-**Institution:** Phenikaa University — Faculty of Information Technology
-**Instructor:** ThS. Nguyễn Văn Cường
-**Cohort:** K17 (2023–2027)
-
-| Team member | Student ID |
-|---|---|
-| Nguyễn Thị Thu Giang | 23010871 |
-| Ngô Thị Minh Phương | 23012156 |
 
 **Third-party assets:** Noto Sans JP font, Lottie animations and audio files used under their respective licences. Learning content is original or adapted for coursework.
 
