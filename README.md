@@ -15,7 +15,7 @@
 
 [![Test trực tiếp](https://img.shields.io/badge/🚀%20Test%20trực%20tiếp-NihonGo%20Master-brightgreen?style=for-the-badge)](https://nihongomasternumber1.netlify.app/)
 
-> **Link test trực tiếp:**  
+> **Demo**  
 > https://nihongomasternumber1.netlify.app/
 
 ---
@@ -29,7 +29,6 @@
 - [Hướng dẫn cài đặt và chạy](https://github.com/mfuongg/NiHonGoMaster#hướng-dẫn-cài-đặt-và-chạy)
 - [Cấu trúc dự án](https://github.com/mfuongg/NiHonGoMaster#cấu-trúc-dự-án)
 - [Dữ liệu và lưu trữ](https://github.com/mfuongg/NiHonGoMaster#dữ-liệu-và-lưu-trữ)
-- [Ảnh chụp màn hình](https://github.com/mfuongg/NiHonGoMaster#ảnh-chụp-màn-hình)
 - [Hạn chế hiện tại](https://github.com/mfuongg/NiHonGoMaster#hạn-chế-hiện-tại)
 - [Lộ trình phát triển](https://github.com/mfuongg/NiHonGoMaster#lộ-trình-phát-triển)
 - [Nhóm phát triển và ghi nhận](https://github.com/mfuongg/NiHonGoMaster#nhóm-phát-triển-và-ghi-nhận)
@@ -442,27 +441,6 @@ Cách tổ chức này giúp ứng dụng tiếp tục hoạt động ngay cả 
 
 ---
 
-## Ảnh chụp màn hình
-
-> 📌 Hiện tại thư mục `assets/images/` chưa có ảnh chụp màn hình được thêm vào repository.
-
-Bạn có thể bổ sung:
-
-| Trang chủ | Flashcard | Kanji |
-|---|---|---|
-| `home.png` | `flashcard.png` | `kanji.png` |
-
-| Bài thi JLPT | Tiến độ | Luyện viết |
-|---|---|---|
-| `jlpt.png` | `progress.png` | `writing.png` |
-
-Sau khi thêm ảnh vào repository, có thể hiển thị bằng:
-
-```markdown
-![Trang chủ](assets/images/home.png)
-```
-
----
 
 ## Hạn chế hiện tại
 
@@ -494,34 +472,6 @@ flutter test
 
 ---
 
-## Nhóm phát triển và ghi nhận
-
-### 👨‍💻 Nhóm phát triển
-
-**NihonGo Master** được thực hiện bởi **nhóm 2 sinh viên** trong đồ án môn **Lập trình cho thiết bị di động** tại Đại học Phenikaa.
-
-### 📚 Công nghệ và tài nguyên bên thứ ba
-
-Dự án sử dụng một số tài nguyên bên thứ ba, bao gồm:
-
-- Noto Sans JP
-- Lottie animations
-- Audio assets
-- Các Flutter package được liệt kê trong phần **Công nghệ sử dụng**
-
-Các tài nguyên bên thứ ba được sử dụng theo giấy phép tương ứng của chúng.
-
----
-
-## Bản quyền
-
-Hiện tại repository **chưa có file LICENSE chính thức**.
-
-Nếu muốn sử dụng lại source code của dự án, vui lòng liên hệ với các tác giả trước.
-
-Có thể bổ sung một license chính thức như **MIT License** trong tương lai.
-
----
 
 ## 🔗 Liên kết
 
@@ -550,7 +500,7 @@ https://nihongomasternumber1.netlify.app/
 
 ## 🇻🇳 Tóm tắt
 
-**NihonGo Master** là ứng dụng học tiếng Nhật được phát triển bằng Flutter, được xây dựng trong khuôn khổ đồ án môn **Lập trình cho thiết bị di động** tại Đại học Phenikaa.
+**NihonGo Master** là ứng dụng học tiếng Nhật được phát triển bằng Flutter.
 
 Ứng dụng tích hợp:
 
